@@ -69,8 +69,6 @@ services:
       - EJABBERD_JWT_SECRET
       - EJABBERD_DOMAIN
       - EJABBERD_WS_URI
-    networks:
-      - web
 
     labels:
       - "traefik.enable=true"
